@@ -1,0 +1,136 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  2048 2稿.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime.h(96,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime.h(96,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime.h(364,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\limits.h(16,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\limits.h(16,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\limits.h(76,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(2058,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(813,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(989,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(232,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(61,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(216,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(479,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1359,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h(16,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h(16,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h(129,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h(2169,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(2445,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(134,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_string.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_string.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_string.h(109,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h(93,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(23,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(23,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(118,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(20,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(20,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(637,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(23,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(23,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(588,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h(422,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h(203,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h(61,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h(268,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h(125,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h(205,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys\stat.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys\stat.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys\stat.h(247,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h(33,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h(33,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h(283,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h(47,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\eh.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\eh.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\eh.h(65,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h(23,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h(23,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h(149,9): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\exception(426,9): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h(406,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h(587,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_typeinfo.h(36,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\vcruntime_typeinfo.h(36,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\typeinfo(72,9): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h(305,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h(181,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h(18,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h(18,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h(45,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\excpt.h(17,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\excpt.h(17,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\excpt.h(85,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\stdarg.h(16,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\stdarg.h(16,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\stdarg.h(27,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\num_rand.h(20,17): warning C4101: “hash”: 未引用的局部变量
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\test.h(91,12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\conio.h(19,1): warning C4079: 意外的标记“标识符”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\conio.h(19,1): warning C4081: 应输入“newline”；找到“,”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\conio.h(500,1): warning C4161: #pragma pack(pop...): 出栈的比入栈的多
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(42,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(56,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(64,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(72,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(81,10): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(83,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(85,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(87,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(89,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(102,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048 2稿\2048 2稿\Ranking_System.h(49): warning C4715: “Sort_rules”: 不是所有的控件路径都返回值
+  2048 2稿.vcxproj -> C:\Users\Saiel Crescent\Desktop\2048 2稿\Debug\2048 2稿.exe
