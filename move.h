@@ -135,166 +135,7 @@ void right_move() {
 	}
 }
 
-//push表示向上移动的过程
-bool up_move_mo(int zhuang_tai[4][4]) {
-	for (int i = 0; i < 4; i++) {
 
-		int tmp[4] = {}, p = 0, res = 0;//tmp和p联合起来模拟简单的数组双端队列，保留数组特性来实现赋值 res是对于第i列shu_zu的指针
-
-		for (int j = 0; j < 4; j++) {
-
-			if (zhuang_tai[j][i])
-				tmp[p++] = zhuang_tai[j][i];
-
-		}
-
-		for (int j = 1; j < p; j++) {
-
-			if (tmp[j] == tmp[j - 1]) {
-
-				tmp[j - 1] = tmp[j] * 2;
-				tmp[j] = 0;
-			}
-		}
-		for (int j = 0; j < 4; j++) {
-			zhuang_tai[j][i] = 0;
-			if (tmp[j])
-				zhuang_tai[res++][i] = tmp[j];
-		}
-
-	}
-	bool ok = 0;
-	for (int i = 0; i < 4; i++) {
-
-		for (int j = 0; j < 4; j++)
-		{
-			if (zhuang_tai[i][j] != wan_jia[i][j])ok = 1;
-		}
-
-	}
-	return ok;
-
-}
-
-//down表示向下移动的过程
-bool down_move_mo(int zhuang_tai[4][4]) {
-	for (int i = 0; i < 4; i++) {
-
-		int tmp[4] = {}, p = 0, res = 3;
-
-		for (int j = 3; j >= 0; j--) {
-
-			if (zhuang_tai[j][i])
-				tmp[p++] = zhuang_tai[j][i];
-
-		}
-
-		for (int j = 1; j < p; j++) {
-
-			if (tmp[j] == tmp[j - 1]) {
-
-				tmp[j - 1] = tmp[j] * 2;
-				tmp[j] = 0;
-			}
-		}
-		for (int j = 3; j >= 0; j--) {
-			zhuang_tai[j][i] = 0;
-			if (tmp[j])
-				zhuang_tai[res--][i] = tmp[j];
-		}
-
-	}
-	bool ok = 0;
-	for (int i = 0; i < 4; i++) {
-
-		for (int j = 0; j < 4; j++)
-		{
-			if (zhuang_tai[i][j] != wan_jia[i][j])ok = 1;
-		}
-
-	}
-	return ok;
-}
-
-//left表示向左移动的过程
-bool left_move_mo(int zhuang_tai[4][4]) {
-	for (int i = 0; i < 4; i++) {
-
-		int tmp[4] = {}, p = 0, res = 0;
-
-		for (int j = 0; j < 4; j++) {
-
-			if (zhuang_tai[i][j])
-				tmp[p++] = zhuang_tai[i][j];
-
-		}
-
-		for (int j = 1; j < p; j++) {
-
-			if (tmp[j] == tmp[j - 1]) {
-
-				tmp[j - 1] = tmp[j] * 2;
-				tmp[j] = 0;
-			}
-		}
-		for (int j = 0; j < 4; j++) {
-			zhuang_tai[i][j] = 0;
-			if (tmp[j])
-				zhuang_tai[i][res++] = tmp[j];
-		}
-	}
-	bool ok = 0;
-	for (int i = 0; i < 4; i++) {
-
-		for (int j = 0; j < 4; j++)
-		{
-			if (zhuang_tai[i][j] != wan_jia[i][j])ok = 1;
-		}
-
-	}
-	return ok;
-}
-//right表示向下移动的过程
-bool right_move_mo(int zhuang_tai[4][4]) {
-	for (int i = 0; i < 4; i++) {
-
-		int tmp[4] = {}, p = 0, res = 3;
-
-		for (int j = 3; j >= 0; j--) {
-
-			if (zhuang_tai[i][j])
-				tmp[p++] = zhuang_tai[i][j];
-
-		}
-
-		for (int j = 1; j < p; j++) {
-
-			if (tmp[j] == tmp[j - 1]) {
-
-				tmp[j - 1] = tmp[j] * 2;
-				tmp[j] = 0;
-			}
-		}
-		for (int j = 3; j >= 0; j--) {
-			zhuang_tai[i][j] = 0;
-			if (tmp[j])
-				zhuang_tai[i][res--] = tmp[j];
-		}
-
-
-	}
-
-	bool ok = 0;
-	for (int i = 0; i < 4; i++) {
-
-		for (int j = 0; j < 4; j++)
-		{
-			if (zhuang_tai[i][j] != wan_jia[i][j])ok = 1;
-		}
-
-	}
-	return ok;
-}
 
 
 bool move_pan_ding(char step) {
@@ -311,25 +152,26 @@ bool move_pan_ding(char step) {
 
 	switch (step) {
 	case 'w':
-		if(up_move_mo(tmp))ok=1;  break;
+		up_move();  break;
 
 	case 's':
-		if(down_move_mo(tmp))ok=1; break;
+		down_move(); break;
 
 	case 'a':
-		if(left_move_mo(tmp))ok=1; break;
+		left_move(); break;
 
 	case 'd':
-		if(right_move_mo(tmp))ok=1; break;
+		right_move(); break;
 
 	}
-	/*for (int i = 0; i < 4; i++) {
+	for (int i = 0; i < 4; i++) {
 
 		for (int j = 0; j < 4; j++)
 		{
-			if (tmp[i][j] != wan_jia[i][j])ok = 1;
+			if (wan_jia[i][j] != tmp[i][j])ok = 1;
+			wan_jia[i][j] = tmp[i][j];
 		}
 
-	}*/
+	}
 	return ok;
 }
