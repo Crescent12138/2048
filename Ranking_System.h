@@ -6,21 +6,21 @@
 #include<conio.h>
 
 struct Completion_time {//游戏成就达成时间
-	int year;
-	int month;
-	int day;
+	int year;//完成年
+	int month;//完成月
+	int day;//完成日
 };
 
 struct Leaderboard {//排行榜中的元素内容
 	char name[100];//游戏用户名 && 只允许英文字符
 	int game_Step;//游戏步数
-	Completion_time completion_time;
-}leaderboard[10];
+	Completion_time completion_time;//完成时间
+}leaderboard[10];//排行榜成员
 
 int Sort_rules( const void* a, const void* b )//排序规则
 {
-	Leaderboard* Sort_Elements_One = (Leaderboard*)a;
-	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;
+	Leaderboard* Sort_Elements_One = (Leaderboard*)a;//快排元素1
+	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;//快排元素2
 
 	if ((*Sort_Elements_One).game_Step != (*Sort_Elements_Two).game_Step)								//关键字1：游戏步数
 		return (*Sort_Elements_One).game_Step > (*Sort_Elements_Two).game_Step?1:-1;
@@ -46,7 +46,7 @@ int Sort_rules( const void* a, const void* b )//排序规则
 		}
 	}
 }
-void InitializationLeaderboard() {
+void InitializationLeaderboard() {//初始化排行榜
 
 	for (int i = 0; i < 10; i++) {
 
@@ -98,5 +98,5 @@ void Print_Leaderboard() {//输出排行榜
 	
 	}
 	printf( "Press any key to return to the main menu!\n" );
-	getch();
+	getch();//暂停程序
 }
