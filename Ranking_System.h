@@ -90,11 +90,11 @@ void Print_Leaderboard() {//输出排行榜
 	}
 
 	qsort( leaderboard, 10, sizeof leaderboard[0], Sort_rules );//对排名信息进行排序
-
+	printf( "\t\tHistorical Optimum\n" );
 	printf( "GamerName\tGameStep\tAchieveTime\n" );
 
 	for (int i = 0; i < 10; i++) {
-
+	
 		printf( "%s\t\t%d\t\t%d.%d.%d\n", leaderboard[i].name, leaderboard[i].game_Step, leaderboard[i].completion_time.year, leaderboard[i].completion_time.month, leaderboard[i].completion_time.day );
 	
 	}
