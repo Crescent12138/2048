@@ -1,28 +1,53 @@
 ﻿// 2048 2稿.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-#include <iostream>
 #include"move.h"
 #include"quan_ju.h"
 #include"test.h"
 #include"Ranking_System.h"
 #include"num_rand.h"
 #include"Pause_Keep_System.h"
+
+void Print_Mnue() {
+	printf( ">>>>>>>>>>>>>>>Game：2048<<<<<<<<<<<<<\n" );
+	printf( "**************************************\n" );
+	printf( "***************1.新建游戏*************\n" );
+	printf( "***************2.继续游戏*************\n" );
+	printf( "***************3.排 行 榜*************\n" );
+	printf( "***************4.游戏说明*************\n" );
+	printf( "***************5.退出游戏*************\n" );
+	printf( "**************************************\n" );
+}
+void Game_Description()
+{
+	printf( "2048游戏共有16个格子，初始时初始数字由2或者4构成。\n\n"
+
+		"1、使用wasd，所有格子会向那个方向运动。\n\n"
+
+		"2、相同数字的两个格子，相撞时数字会相加。\n\n"
+
+		"3、每次滑动时，空白处会随机刷新出一个数字的格子。\n\n"
+
+		"4、当界面不可运动时（当界面全部被数字填满时），游戏结束；当界面中最大数字是2048时，游戏胜利。\n\n" );
+	printf( "Enter any key to return to the main menu!\n" );
+	getch();
+	system( "cls" );
+}
 int main()
 {
-    //test_move();
-    //rand_test();
-    test_round();
-    //print(wan_jia);
+	while (1) {
+		Print_Mnue();
+		int step;//选择
+		scanf( "%d", &step );
+		switch (step) {
+		case 1:memset(wan_jia,0,sizeof wan_jia),test_round(); break;
+		case 2:Keep_Playing(); break;
+		case 3:Print_Leaderboard(); break;
+		case 4:Game_Description(); break;
+		case 5:printf( "Thanks for your using!\n" ); exit( 0 );
+		}
+
+	}
+
+
 }
-
-// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
-
-// 入门使用技巧: 
-//   1. 使用解决方案资源管理器窗口添加/管理文件
-//   2. 使用团队资源管理器窗口连接到源代码管理
-//   3. 使用输出窗口查看生成输出和其他消息
-//   4. 使用错误列表窗口查看错误
-//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
-//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
