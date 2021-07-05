@@ -9,7 +9,7 @@
 
 ​    这是一个简单且BUG不多的小游戏，如果有BUG，非常抱歉，都是我们有问题  鞠躬
 
-​    ![Game](https://img.shields.io/badge/game-c%2B%2B-green)![taskwork: gxu (shields.io)](https://img.shields.io/badge/taskwork-gxu-red)![Author: ChinesePeach (shields.io)](https://img.shields.io/badge/Author- ChinesePeach-blue)![Author: Sariel (shields.io)](https://img.shields.io/badge/Author- Sariel-black)![QQ: 2986325137 (shields.io)](https://img.shields.io/badge/QQ- 2986325137-orange)
+​    ![Game](https://img.shields.io/badge/game-c%2B%2B-green)![taskwork: gxu (shields.io)](https://img.shields.io/badge/taskwork-gxu-red)![Author: ChinesePeach (shields.io)](https://img.shields.io/badge/Author-ChinesePeach-blue)![Author: Sariel (shields.io)](https://img.shields.io/badge/Author-Sariel-black)![QQ: 2986325137 (shields.io)](https://img.shields.io/badge/QQ- 2986325137-orange)
 
 ​    ![issues](https://img.shields.io/github/issues/Crescent12138/2048)![forks](https://img.shields.io/github/forks/Crescent12138/2048)![](https://img.shields.io/github/stars/Crescent12138/2048)
 
