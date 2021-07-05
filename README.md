@@ -23,7 +23,7 @@
 
 ## 开始使用
 
-一、下载 链接 并解压
+一、下载 [2048](https://github.com/Crescent12138/2048/releases/download/1.0/2048.zip) 并解压
 
 二、开始运行 2048.exe文件，等待相关文件加载。
 
