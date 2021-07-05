@@ -1,4 +1,4 @@
-![老婆照片当横幅](file:///C:/Users/Saiel%20Crescent/Desktop/2048%202%E7%A8%BF/lao_po.png)            
+![老婆照片当横幅](https://img13.360buyimg.com/ddimg/jfs/t1/191933/18/11790/1360979/60e2a8b7Eda26535f/67d9e7444890c2a9.png)            
 
  
 
