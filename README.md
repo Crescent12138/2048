@@ -1,4 +1,4 @@
-                 ![老婆照片当横幅](C:\Users\Saiel Crescent\Desktop\2048 2稿\lao_po.png)            
+                 ![老婆照片当横幅](https://github.com/Crescent12138/2048/blob/main/lao_po.png)            
 
  
 
