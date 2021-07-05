@@ -94,5 +94,5 @@
 
 
 
-特别感谢 [JetBrains](https://www.jetbrains.com/?from=onebot-yaya) 为开源项目提供免费的 IDE 的授权  
+特别感谢 [Microsoft](https://visualstudio.microsoft.com/zh-hans/) 为开源项目提供免费的 IDE 的授权  
 
