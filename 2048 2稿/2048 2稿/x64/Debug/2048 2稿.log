@@ -1,0 +1,32 @@
+﻿D:\IDE\Microsoft Visua Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(2048 2稿.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  2048_main.cpp
+D:\项目\2048-main\2048 2稿\2048 2稿\num_rand.h(20,17): warning C4101: “hash”: 未引用的局部变量
+D:\项目\2048-main\2048 2稿\2048 2稿\Output_Time.h(9,8): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(54,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(63,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(78,10): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(80,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(82,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(84,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(86,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(99,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(108,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(116,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(125,10): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(127,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(129,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(131,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(133,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(141,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Pause_System.h(12,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Pause_System.h(20,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Pause_System.h(36,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\test.h(97,12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Keep_System.h(10,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Keep_System.h(16,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Keep_System.h(23,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Keep_System.h(29,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\2048_main.cpp(37,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048-main\2048 2稿\2048 2稿\Ranking_System.h(47): warning C4715: “Sort_rules”: 不是所有的控件路径都返回值
+  2048 2稿.vcxproj -> D:\项目\2048-main\2048 2稿\x64\Debug\2048.exe

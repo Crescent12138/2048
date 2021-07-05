@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2048 2稿.cpp">
+    <ClCompile Include="2048_main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,13 @@
     <ClInclude Include="num_rand.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Pause_Keep_System.h">
+    <ClInclude Include="Pause_System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Keep_System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Output_Time.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

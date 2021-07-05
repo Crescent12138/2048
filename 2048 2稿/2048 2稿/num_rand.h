@@ -1,7 +1,7 @@
 #pragma once
-#include"move.h"
 #include"quan_ju.h"
-#include<stdio.h>
+#include"move.h"
+
 
 //获得随机数
 int get_random(int number_size) {

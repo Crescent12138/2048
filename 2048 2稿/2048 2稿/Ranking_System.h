@@ -1,10 +1,8 @@
 #pragma once
 //ChinesePeach
-#include<stdio.h>
-#include<string.h>
-#include<Windows.h>
-#include<stdlib.h>
-#include<conio.h>
+#include"quan_ju.h"
+#include"Output_Time.h"
+
 
 struct Completion_time {//游戏成就达成时间
 	int year;//完成年
@@ -16,7 +14,7 @@ struct Leaderboard {//排行榜中的元素内容
 	char name[100];//游戏用户名 && 只允许英文字符
 	int game_Step;//游戏步数
 	Completion_time completion_time;//完成时间
-}leaderboard[10];//排行榜成员
+}leaderboard[1000];//排行榜成员
 
 int Sort_rules(const void* a, const void* b)//排序规则
 {
@@ -51,7 +49,7 @@ void InitializationLeaderboard() {//初始化排行榜
 
 	for (int i = 0; i < 10; i++) {
 
-		leaderboard[i].game_Step = 99999;
+		leaderboard[i].game_Step = 999999;
 
 		strcpy(leaderboard[i].name, "empty");
 
@@ -59,17 +57,16 @@ void InitializationLeaderboard() {//初始化排行榜
 	}
 }
 void Print_Leaderboard() {//输出排行榜
+	system( "cls" );
 
 	FILE* fp = NULL;//文件指针->打开排行榜信息
-	fp = fopen("Leaderboard.txt", "w+");
+	fp = fopen("Leaderboard.txt", "r");
 
 	if (fp == NULL) {//读取本地信息出错
 
-		printf("There is a bug in reading information, please restart and try.\n"
-			"If loading fails all the time, please contact the administrator:\n"
-			"QQ：2986325137 / 1272607918\n");
+		printf("No local date!\n");
 
-		getch();//暂停程序
+		Sleep( 1000 );//暂停程序
 		system("cls");//清空屏幕缓存区
 		return;
 	}
@@ -78,7 +75,7 @@ void Print_Leaderboard() {//输出排行榜
 
 	int local_Population = 0;//本地保存的人数
 
-	while ((fscanf(fp, "%s", leaderboard[++local_Population].name)) != EOF) {
+	while ((fscanf(fp, "%s", leaderboard[local_Population].name)) != EOF) {
 
 		fscanf(fp, "%d", &leaderboard[local_Population].game_Step);
 
@@ -86,10 +83,10 @@ void Print_Leaderboard() {//输出排行榜
 
 		fscanf(fp, "%d", &leaderboard[local_Population].completion_time.month);
 
-		fscanf(fp, "%d", &leaderboard[local_Population].completion_time.day);
+		fscanf(fp, "%d", &leaderboard[local_Population++].completion_time.day);
 	}
 
-	qsort(leaderboard, 10, sizeof leaderboard[0], Sort_rules);//对排名信息进行排序
+	qsort(leaderboard, local_Population, sizeof leaderboard[0], Sort_rules);//对排名信息进行排序
 	printf("\t\tHistorical Optimum\n");
 	printf("GamerName\tGameStep\tAchieveTime\n");
 
@@ -100,4 +97,57 @@ void Print_Leaderboard() {//输出排行榜
 	}
 	printf("Press any key to return to the main menu!\n");
 	getch();//暂停程序
+
+	system( "cls" );
+	fclose( fp );
+}
+
+void Update_Leaderboard( Leaderboard people ) {
+
+	FILE* fp = NULL;//文件指针->打开排行榜信息
+	fp = fopen( "Leaderboard.txt", "wt+" );
+
+	if (fp == NULL) {//读取本地信息出错
+
+		printf( "There is a bug in reading information, please restart and try.\n"
+			"If loading fails all the time, please contact the administrator:\n"
+			"QQ：2986325137 / 1272607918\n" );
+
+		getch();//暂停程序
+		system( "cls" );//清空屏幕缓存区
+		return;
+	}
+
+	InitializationLeaderboard();//初始化排行榜结构体
+
+	int local_Population = 0;//本地保存的人数
+
+	while ((fscanf( fp, "%s", leaderboard[local_Population].name )) != EOF) {
+
+		fscanf( fp, "%d", &leaderboard[local_Population].game_Step );
+
+		fscanf( fp, "%d", &leaderboard[local_Population].completion_time.year );
+
+		fscanf( fp, "%d", &leaderboard[local_Population].completion_time.month );
+
+		fscanf( fp, "%d", &leaderboard[local_Population++].completion_time.day );
+	}
+
+	qsort( leaderboard, local_Population, sizeof leaderboard[0], Sort_rules );//对排名信息进行排序
+
+	if (people.game_Step < leaderboard[9].game_Step) {
+
+		leaderboard[9].game_Step = people.game_Step;
+		strcpy( leaderboard[9].name, people.name );
+		out_Time( leaderboard[9].completion_time.year, leaderboard[9].completion_time.month, leaderboard[9].completion_time.day );
+	
+	}
+	for (int i = 0; i < 10; i++) {
+
+		fprintf( fp, "%s %d %d %d %d\n", leaderboard[i].name, leaderboard[i].game_Step
+			, leaderboard[i].completion_time.year, leaderboard[i].completion_time.month
+			, leaderboard[i].completion_time.day );
+
+	}
+	fclose( fp );
 }
