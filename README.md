@@ -1,4 +1,4 @@
-![老婆照片当横幅](https://github.com/Crescent12138/2048/blob/main/lao_po.png)            
+![老婆照片当横幅](public/老婆照片.jpg)            
 
  
 
@@ -43,7 +43,7 @@
 
 四、游戏界面暂时采用后端控制台来进行游戏，等我们有时间了再写前端
 
-![操作界面](https://github.com/Crescent12138/2048/blob/main/QQ%E6%88%AA%E5%9B%BE20210706133714.png)
+![操作界面](public/操作界面.png)
 
 
 
