@@ -23,7 +23,7 @@
 
 ## 开始使用
 
-一、下载 [2048](https://github.com/Crescent12138/2048/releases/download/1.0/2048.zip) 并解压
+一、下载 [2048](https://github-releases.githubusercontent.com/382786508/d6f8fa80-ddc1-11eb-8765-3a221ffa93cc?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210706%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210706T052133Z&X-Amz-Expires=300&X-Amz-Signature=a37369f30341a6b9febea71359baf48bd26fd3d31d78a6f8d4940d8a8c85d8c8&X-Amz-SignedHeaders=host&actor_id=79407037&key_id=0&repo_id=382786508&response-content-disposition=attachment%3B%20filename%3D2048.zip&response-content-type=application%2Foctet-stream) 并解压
 
 二、开始运行 2048.exe文件，等待相关文件加载。
 
