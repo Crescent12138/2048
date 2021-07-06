@@ -9,20 +9,21 @@ void new_game() {
 	people.MaxNum = 0;//初始化最大值
 
 	system( "cls" );
-	printf( "1.普通模式\n2.无尽模式\n" );
-	printf( "Please choose game mode:" );
+	
 
 	string step;//选择
 	while (1) {
-		
+		printf( "1.普通模式\n2.无尽模式\n" );
+		printf( "Please choose game mode:" );
 		cin >> step;
 		if (step != "1" && step != "2") {
-
+			setcolor( 4, 0 );
 			printf( "Your input is wrong!\nPlease input again!\n" );
 			Sleep( 1000 );
 			system( "cls" );
-
+			setcolor( 11, 0 );
 			continue;
+			
 		}
 		break;
 		

@@ -1,16 +1,19 @@
-﻿// 2048 2稿.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿//  此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 #include"quan_ju.h"
 #include"num_rand.h"
 #include"move.h"
 #include"Ranking_System.h"
+#include"Color_Size.h"
 #include"test.h"
 #include"Keep_System.h"
 #include"Pause_System.h"
 #include"New_Game.h"
 #include"Wipe_Cache.h"
 
+
 void Print_Mnue() {
+	SetColor( 11, 0 );
 	printf( ">>>>>>>>>>>>>>>>>>>>>>>>Game：2048<<<<<<<<<<<<<<<<<<<<<\n" );
 	printf( "*******************************************************\n" );
 	printf( "******			1.新建游戏		   ****\n" );
@@ -43,12 +46,18 @@ void Game_Description()
 }
 int main()
 {
+	KillConsoleCloseButton();
+	SetSize( 60, 20 );
+	the_size_of_word();
+	SetPos( 0, 5 );
 	while (1) {
 		Print_Mnue();
 		string step;//选择
 		cin >> step;
-		if (step !="1" && step != "2" && step != "3" && step != "4" && step != "5") {
 
+		if (step !="1" && step != "2" && step != "3" && step != "4" && step != "5"&&step!="6"&&step!="7") {
+
+			SetColor( 4, 0 );
 			printf( "Your input is wrong!\nPlease input again!\n" );
 			Sleep( 1000 );
 			system( "cls" );

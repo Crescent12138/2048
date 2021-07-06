@@ -141,7 +141,7 @@ bool move_pan_ding(char step,int mode,int &MaxNum) {
 			MaxNum = max( MaxNum, wan_jia[i][j] );
 		}
 	}
-	if (mode==1&&MaxNum >= 2) {
+	if (mode==1&&MaxNum >= 2048) {
 		//达到条件，结束游戏
 		return false;
 	}

@@ -5,25 +5,95 @@
 #include"move.h"
 #include"Pause_System.h"
 
+VOID setcolor( UINT uFore, UINT uBack ) {//更改背景颜色
+    HANDLE handle = GetStdHandle( STD_OUTPUT_HANDLE );
+    SetConsoleTextAttribute( handle, uFore + uBack * 0x10 );
+    /*0 = 黑色       8 = 灰色
+    1 = 蓝色       9 = 淡蓝色
+    2 = 绿色       10/A = 淡绿色
+    3 = 浅绿色     11/B = 淡浅绿色
+    4 = 红色       12/C = 淡红色
+    5 = 紫色       13/D = 淡紫色
+    6 = 黄色       14/E = 淡黄色
+    7 = 白色       15/F = 亮白色*/
+}
+
 //打印函数，用于显示二维数组内容
-void print(int shu_zu[4][4],Leaderboard people,int mode) {
+void print( int shu_zu[4][4], Leaderboard people, int mode ) {
 
-    if(mode==1)
-       printf( "GameNmae:%s\tGameStep:%d\n", people.name, people.game_Step );
+    COORD pos = { 0, 3 };
+    HANDLE out = GetStdHandle( STD_OUTPUT_HANDLE );
+    SetConsoleCursorPosition( out, pos );
+    if (mode == 1)
+        printf( "GameNmae:%s\tGameStep:%d\n\n", people.name, people.game_Step );
     else
-        printf( "GameNmae:%s\tMaxNum:%d\n", people.name, people.MaxNum );
-
+        printf( "GameNmae:%s\tMaxNum:%d\n\n", people.name, people.MaxNum );
+    // SetPos( 0, 10 );
+    for (int i = 0; i < 4; i++) printf( "_________" );
+    printf( "\n" );
     for (int i = 0; i < 4; i++) {
 
-        for (int j = 0; j < 4; j++) {
+        /*0 = 黑色       8 = 灰色
+         1 = 蓝色       9 = 淡蓝色
+         2 = 绿色       10/A = 淡绿色
+         3 = 浅绿色     11/B = 淡浅绿色
+         4 = 红色       12/C = 淡红色
+         5 = 紫色       13/D = 淡紫色
+         6 = 黄色       14/E = 淡黄色
+         7 = 白色       15/F = 亮白色
+         */
 
-            printf("%d\t", shu_zu[i][j]);
+        for (int j = 0; j < 4; j++) {
+            setcolor( 11, 0 );
+            printf( "|" );
+            switch (shu_zu[i][j]) {
+
+            case 0:setcolor( 7, 0 ); break;
+
+            case 2:setcolor( 14, 0 ); break;
+
+            case 4:setcolor( 6, 0 ); break;
+
+            case 8:setcolor( 1, 0 ); break;
+
+            case 16:setcolor( 3, 0 ); break;
+
+            case 32:setcolor( 2, 0 ); break;
+
+            case 64:setcolor( 8, 0 ); break;
+
+            case 128:setcolor( 4, 0 ); break;
+
+            case 256:setcolor( 12, 0 ); break;
+
+            case 512:setcolor( 13, 0 ); break;
+
+            case 1024:setcolor( 5, 0 ); break;
+
+            case 2048:setcolor( 9, 0 ); break;
+
+            case 4096:setcolor( 15, 0 ); break;
+            }
+
+            printf( "%4d    ", shu_zu[i][j] );
 
         }
 
-        printf("\n");
+        setcolor( 11, 0 );
+
+        printf( "|\n" );
+
+
+
+        for (int j = 0; j < 4; j++) {
+
+            printf( "|________" );
+        }
+
+        printf( "|\n" );
 
     }
+    setcolor( 11, 0 );
     printf( "Please input your operation(P is pause):\n" );
 }
 
@@ -97,7 +167,7 @@ void test_round(Leaderboard people,int mode) {
     char operation;
     
     print(wan_jia,people,mode);
-    while (scanf("\n%c", &operation)) {
+    while (operation=getch()) {
         if (operation == 'P' || operation == 'p') {
 
             Pause_system( wan_jia, people ,mode);
@@ -126,6 +196,7 @@ void test_round(Leaderboard people,int mode) {
             print(wan_jia,people,mode);
         }
         else {
+            
             printf("You got a bad way,try again!\n");
 
         }

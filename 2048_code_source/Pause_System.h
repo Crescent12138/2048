@@ -16,9 +16,13 @@ void Pause_system(int shu_zu[4][4],Leaderboard people,int mode) {
 
 	if (fp == NULL) {//读取本地信息出错
 
+		//setcolor( 4, 0 );//bug红色
+		
 		printf("There is a bug in reading information, please restart and try.\n"
 			"If loading fails all the time, please contact the administrator:\n"
 			"QQ：2986325137 / 1272607918\n");
+		
+		//setcolor( 11, 0 );//系统颜色
 
 		getch();//暂停程序
 		system("cls");//清空屏幕缓存区

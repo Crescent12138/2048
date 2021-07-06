@@ -95,7 +95,7 @@ void Print_Leaderboard(int mode) {//输出排行榜
 	else fp = fopen( "EndlessLeaderboard.txt", "r" );//无尽模式排行榜文件
 
 	if (fp == NULL) {//读取本地信息出错
-
+		
 		printf("No local date!\n");
 
 		Sleep( 1000 );//暂停程序
