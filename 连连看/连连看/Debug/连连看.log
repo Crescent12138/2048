@@ -1,0 +1,7 @@
+﻿  连连看.cpp
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(89,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(359,68): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(359,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(365,68): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(365,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  连连看.vcxproj -> C:\Users\gzq\source\repos\连连看\Debug\连连看.exe

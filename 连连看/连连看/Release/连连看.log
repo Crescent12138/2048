@@ -1,0 +1,60 @@
+﻿  连连看.cpp
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(36,40): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(36,40): message : 尝试匹配参数列表“(IMAGE *, const char [19])”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(37,42): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(256,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(37,42): message : 尝试匹配参数列表“(IMAGE *, const char [17])”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(40,58): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [23]”转换为“LPCWSTR”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(40,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(41,51): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(41,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(86,40): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(86,40): message : 尝试匹配参数列表“(int, int, const char [9])”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(88,34): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(226,5): message : 可能是“int textwidth(TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(225,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(88,34): message : 尝试匹配参数列表“(char [20])”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(89,75): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(89,75): message : 尝试匹配参数列表“(double, int, char [20])”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(323,62): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“char [505]”转换为“LPCWSTR”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(323,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(340,56): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“char [505]”转换为“LPCWSTR”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(340,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(355,31): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(355,31): message : 尝试匹配参数列表“(int, int, LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(357,30): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(226,5): message : 可能是“int textwidth(TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(225,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(357,30): message : 尝试匹配参数列表“(LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(358,32): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textheight(TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(358,32): message : 尝试匹配参数列表“(LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(359,81): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(359,81): message : 尝试匹配参数列表“(double, double, LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(362,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(247,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(362,30): message : 尝试匹配参数列表“(int, int, LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(363,26): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(226,5): message : 可能是“int textwidth(TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(225,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(363,26): message : 尝试匹配参数列表“(LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(364,28): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textheight(TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(364,28): message : 尝试匹配参数列表“(LPCSTR)”时
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(365,81): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(224,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(223,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\gzq\source\repos\连连看\连连看\连连看.cpp(365,81): message : 尝试匹配参数列表“(double, double, LPCSTR)”时
