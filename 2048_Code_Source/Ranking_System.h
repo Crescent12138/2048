@@ -4,40 +4,40 @@
 #include"Output_Time.h"
 
 
-struct Completion_time {//ÓÎÏ·³É¾Í´ï³ÉÊ±¼ä
-	int year;//Íê³ÉÄê
-	int month;//Íê³ÉÔÂ
-	int day;//Íê³ÉÈÕ
+struct Completion_time {//æ¸¸æˆæˆå°±è¾¾æˆæ—¶é—´
+	int year;//å®Œæˆå¹´
+	int month;//å®Œæˆæœˆ
+	int day;//å®Œæˆæ—¥
 };
 
-struct Leaderboard {//ÅÅĞĞ°ñÖĞµÄÔªËØÄÚÈİ
-	char name[100];//ÓÎÏ·ÓÃ»§Ãû && Ö»ÔÊĞíÓ¢ÎÄ×Ö·û
-	int game_Step;//ÓÎÏ·²½Êı
-	int MaxNum;//³öÏÖµÄ×î´óÊı×Ö
-	Completion_time completion_time;//Íê³ÉÊ±¼ä
-}leaderboard[10000];//ÅÅĞĞ°ñ³ÉÔ±
-//ÅÅĞĞ°ñÈİÁ¿Îª 10000
-int Sort_rules_ordinary(const void* a, const void* b)//ÅÅĞò¹æÔò
+struct Leaderboard {//æ’è¡Œæ¦œä¸­çš„å…ƒç´ å†…å®¹
+	char name[100];//æ¸¸æˆç”¨æˆ·å && åªå…è®¸è‹±æ–‡å­—ç¬¦
+	int game_Step;//æ¸¸æˆæ­¥æ•°
+	int MaxNum;//å‡ºç°çš„æœ€å¤§æ•°å­—
+	Completion_time completion_time;//å®Œæˆæ—¶é—´
+}leaderboard[10000];//æ’è¡Œæ¦œæˆå‘˜
+//æ’è¡Œæ¦œå®¹é‡ä¸º 10000
+int Sort_rules_ordinary(const void* a, const void* b)//æ’åºè§„åˆ™
 {
-	Leaderboard* Sort_Elements_One = (Leaderboard*)a;//¿ìÅÅÔªËØ1
-	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;//¿ìÅÅÔªËØ2
+	Leaderboard* Sort_Elements_One = (Leaderboard*)a;//å¿«æ’å…ƒç´ 1
+	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;//å¿«æ’å…ƒç´ 2
 
-	if ((*Sort_Elements_One).game_Step != (*Sort_Elements_Two).game_Step)								//¹Ø¼ü×Ö1£ºÓÎÏ·²½Êı
+	if ((*Sort_Elements_One).game_Step != (*Sort_Elements_Two).game_Step)								//å…³é”®å­—1ï¼šæ¸¸æˆæ­¥æ•°
 		return (*Sort_Elements_One).game_Step > (*Sort_Elements_Two).game_Step ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.year != (*Sort_Elements_Two).completion_time.year)	//¹Ø¼ü×Ö2£ºÍê³ÉÄê·İ
+	else if ((*Sort_Elements_One).completion_time.year != (*Sort_Elements_Two).completion_time.year)	//å…³é”®å­—2ï¼šå®Œæˆå¹´ä»½
 		return (*Sort_Elements_One).completion_time.year > (*Sort_Elements_Two).completion_time.year ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.month != (*Sort_Elements_Two).completion_time.month)	//¹Ø¼ü×Ö3£ºÍê³ÉÔÂ·İ
+	else if ((*Sort_Elements_One).completion_time.month != (*Sort_Elements_Two).completion_time.month)	//å…³é”®å­—3ï¼šå®Œæˆæœˆä»½
 		return (*Sort_Elements_One).completion_time.month > (*Sort_Elements_Two).completion_time.month ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.day != (*Sort_Elements_Two).completion_time.day)		//¹Ø¼ü×Ö4£ºÍê³ÉÈÕ
+	else if ((*Sort_Elements_One).completion_time.day != (*Sort_Elements_Two).completion_time.day)		//å…³é”®å­—4ï¼šå®Œæˆæ—¥
 		return (*Sort_Elements_One).completion_time.day > (*Sort_Elements_Two).completion_time.day ? 1 : -1;
 
-	else if (strlen((*Sort_Elements_One).name) != strlen((*Sort_Elements_Two).name))				//¹Ø¼ü×Ö5£ºÃû³Æ³¤¶È
+	else if (strlen((*Sort_Elements_One).name) != strlen((*Sort_Elements_Two).name))				//å…³é”®å­—5ï¼šåç§°é•¿åº¦
 		return strlen((*Sort_Elements_One).name) > strlen((*Sort_Elements_Two).name) ? 1 : -1;
 
-	else {																								//¹Ø¼ü×Ö6£º×ÖÄ¸ACSIIË³Ğò
+	else {																								//å…³é”®å­—6ï¼šå­—æ¯ACSIIé¡ºåº
 		for (int i = 0; i < strlen((*Sort_Elements_One).name); i++) {
 
 			if ((*Sort_Elements_One).name[i] != (*Sort_Elements_Two).name[i])
@@ -46,27 +46,27 @@ int Sort_rules_ordinary(const void* a, const void* b)//ÅÅĞò¹æÔò
 		}
 	}
 }
-int Sort_rules_endless( const void* a, const void* b )//ÅÅĞò¹æÔò
+int Sort_rules_endless( const void* a, const void* b )//æ’åºè§„åˆ™
 {
-	Leaderboard* Sort_Elements_One = (Leaderboard*)a;//¿ìÅÅÔªËØ1
-	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;//¿ìÅÅÔªËØ2
+	Leaderboard* Sort_Elements_One = (Leaderboard*)a;//å¿«æ’å…ƒç´ 1
+	Leaderboard* Sort_Elements_Two = (Leaderboard*)b;//å¿«æ’å…ƒç´ 2
 
-	if ((*Sort_Elements_One).MaxNum != (*Sort_Elements_Two).MaxNum)								//¹Ø¼ü×Ö1£ºÓÎÏ·²½Êı
+	if ((*Sort_Elements_One).MaxNum != (*Sort_Elements_Two).MaxNum)								//å…³é”®å­—1ï¼šæ¸¸æˆæ­¥æ•°
 		return (*Sort_Elements_One).MaxNum < (*Sort_Elements_Two).MaxNum ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.year != (*Sort_Elements_Two).completion_time.year)	//¹Ø¼ü×Ö2£ºÍê³ÉÄê·İ
+	else if ((*Sort_Elements_One).completion_time.year != (*Sort_Elements_Two).completion_time.year)	//å…³é”®å­—2ï¼šå®Œæˆå¹´ä»½
 		return (*Sort_Elements_One).completion_time.year > (*Sort_Elements_Two).completion_time.year ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.month != (*Sort_Elements_Two).completion_time.month)	//¹Ø¼ü×Ö3£ºÍê³ÉÔÂ·İ
+	else if ((*Sort_Elements_One).completion_time.month != (*Sort_Elements_Two).completion_time.month)	//å…³é”®å­—3ï¼šå®Œæˆæœˆä»½
 		return (*Sort_Elements_One).completion_time.month > (*Sort_Elements_Two).completion_time.month ? 1 : -1;
 
-	else if ((*Sort_Elements_One).completion_time.day != (*Sort_Elements_Two).completion_time.day)		//¹Ø¼ü×Ö4£ºÍê³ÉÈÕ
+	else if ((*Sort_Elements_One).completion_time.day != (*Sort_Elements_Two).completion_time.day)		//å…³é”®å­—4ï¼šå®Œæˆæ—¥
 		return (*Sort_Elements_One).completion_time.day > (*Sort_Elements_Two).completion_time.day ? 1 : -1;
 
-	else if (strlen( (*Sort_Elements_One).name ) != strlen( (*Sort_Elements_Two).name ))				//¹Ø¼ü×Ö5£ºÃû³Æ³¤¶È
+	else if (strlen( (*Sort_Elements_One).name ) != strlen( (*Sort_Elements_Two).name ))				//å…³é”®å­—5ï¼šåç§°é•¿åº¦
 		return strlen( (*Sort_Elements_One).name ) > strlen( (*Sort_Elements_Two).name ) ? 1 : -1;
 
-	else {																								//¹Ø¼ü×Ö6£º×ÖÄ¸ACSIIË³Ğò
+	else {																								//å…³é”®å­—6ï¼šå­—æ¯ACSIIé¡ºåº
 		for (int i = 0; i < strlen( (*Sort_Elements_One).name ); i++) {
 
 			if ((*Sort_Elements_One).name[i] != (*Sort_Elements_Two).name[i])
@@ -75,7 +75,7 @@ int Sort_rules_endless( const void* a, const void* b )//ÅÅĞò¹æÔò
 		}
 	}
 }
-void InitializationLeaderboard() {//³õÊ¼»¯ÅÅĞĞ°ñ
+void InitializationLeaderboard() {//åˆå§‹åŒ–æ’è¡Œæ¦œ
 
 	
 	leaderboard[0].game_Step = 99999;
@@ -85,27 +85,27 @@ void InitializationLeaderboard() {//³õÊ¼»¯ÅÅĞĞ°ñ
 	leaderboard[0].completion_time.year = leaderboard[0].completion_time.month = leaderboard[0].completion_time.day = 9999;
 	
 }
-void Print_Leaderboard(int mode) {//Êä³öÅÅĞĞ°ñ
+void Print_Leaderboard(int mode) {//è¾“å‡ºæ’è¡Œæ¦œ
 	system( "cls" );
 
-	FILE* fp = NULL;//ÎÄ¼şÖ¸Õë->´ò¿ªÅÅĞĞ°ñĞÅÏ¢
+	FILE* fp = NULL;//æ–‡ä»¶æŒ‡é’ˆ->æ‰“å¼€æ’è¡Œæ¦œä¿¡æ¯
 
 	if (mode == 1)
-		fp = fopen( "OrdinaryLeaderboard.txt", "r" );//ÆÕÍ¨Ä£Ê½ÅÅĞĞ°ñÎÄ¼ş
-	else fp = fopen( "EndlessLeaderboard.txt", "r" );//ÎŞ¾¡Ä£Ê½ÅÅĞĞ°ñÎÄ¼ş
+		fp = fopen( "OrdinaryLeaderboard.txt", "r" );//æ™®é€šæ¨¡å¼æ’è¡Œæ¦œæ–‡ä»¶
+	else fp = fopen( "EndlessLeaderboard.txt", "r" );//æ— å°½æ¨¡å¼æ’è¡Œæ¦œæ–‡ä»¶
 
-	if (fp == NULL) {//¶ÁÈ¡±¾µØĞÅÏ¢³ö´í
+	if (fp == NULL) {//è¯»å–æœ¬åœ°ä¿¡æ¯å‡ºé”™
 		
 		printf("No local date!\n");
 
-		Sleep( 1000 );//ÔİÍ£³ÌĞò
-		system("cls");//Çå¿ÕÆÁÄ»»º´æÇø
+		Sleep( 1000 );//æš‚åœç¨‹åº
+		system("cls");//æ¸…ç©ºå±å¹•ç¼“å­˜åŒº
 		return;
 	}
 
-	InitializationLeaderboard();//³õÊ¼»¯ÅÅĞĞ°ñ½á¹¹Ìå
+	InitializationLeaderboard();//åˆå§‹åŒ–æ’è¡Œæ¦œç»“æ„ä½“
 
-	int local_Population = 0;//±¾µØ±£´æµÄÈËÊı
+	int local_Population = 0;//æœ¬åœ°ä¿å­˜çš„äººæ•°
 
 	while ((fscanf(fp, "%s", leaderboard[local_Population].name)) != EOF) {
 
@@ -121,19 +121,19 @@ void Print_Leaderboard(int mode) {//Êä³öÅÅĞĞ°ñ
 		fscanf(fp, "%d", &leaderboard[local_Population++].completion_time.day);
 	}
 
-	if (local_Population==0) {//¶ÁÈ¡±¾µØĞÅÏ¢³ö´í
+	if (local_Population==0) {//è¯»å–æœ¬åœ°ä¿¡æ¯å‡ºé”™
 
 		printf( "No local date!\n" );
 
-		Sleep( 1000 );//ÔİÍ£³ÌĞò
-		system( "cls" );//Çå¿ÕÆÁÄ»»º´æÇø
+		Sleep( 1000 );//æš‚åœç¨‹åº
+		system( "cls" );//æ¸…ç©ºå±å¹•ç¼“å­˜åŒº
 		return;
 	}
 
 	if(mode==1)
-		qsort(leaderboard, local_Population, sizeof leaderboard[0], Sort_rules_ordinary);//¶ÔÅÅÃûĞÅÏ¢½øĞĞÅÅĞò
+		qsort(leaderboard, local_Population, sizeof leaderboard[0], Sort_rules_ordinary);//å¯¹æ’åä¿¡æ¯è¿›è¡Œæ’åº
 	else 
-		qsort( leaderboard, local_Population, sizeof leaderboard[0], Sort_rules_endless );//¶ÔÅÅÃûĞÅÏ¢½øĞĞÅÅĞò
+		qsort( leaderboard, local_Population, sizeof leaderboard[0], Sort_rules_endless );//å¯¹æ’åä¿¡æ¯è¿›è¡Œæ’åº
 
 	printf("\t\tHistorical Optimum\n");
 	if (mode == 1)
@@ -153,7 +153,7 @@ void Print_Leaderboard(int mode) {//Êä³öÅÅĞĞ°ñ
 
 		}
 	printf("Press any key to return to the main menu!\n");
-	getch();//ÔİÍ£³ÌĞò
+	getch();//æš‚åœç¨‹åº
 
 	system( "cls" );
 	fclose( fp );
@@ -161,21 +161,21 @@ void Print_Leaderboard(int mode) {//Êä³öÅÅĞĞ°ñ
 
 void Update_Leaderboard( Leaderboard people ,int mode) {
 
-	FILE* fp = NULL;//ÎÄ¼şÖ¸Õë->´ò¿ªÅÅĞĞ°ñĞÅÏ¢
+	FILE* fp = NULL;//æ–‡ä»¶æŒ‡é’ˆ->æ‰“å¼€æ’è¡Œæ¦œä¿¡æ¯
 	
 	if (mode == 1)
-		fp = fopen( "OrdinaryLeaderboard.txt", "wt+" );//ÆÕÍ¨Ä£Ê½ÅÅĞĞ°ñÎÄ¼ş
-	else fp = fopen( "EndlessLeaderboard.txt", "wt+" );//ÎŞ¾¡Ä£Ê½ÅÅĞĞ°ñÎÄ¼ş
+		fp = fopen( "OrdinaryLeaderboard.txt", "wt+" );//æ™®é€šæ¨¡å¼æ’è¡Œæ¦œæ–‡ä»¶
+	else fp = fopen( "EndlessLeaderboard.txt", "wt+" );//æ— å°½æ¨¡å¼æ’è¡Œæ¦œæ–‡ä»¶
 
 
-	if (fp == NULL) {//¶ÁÈ¡±¾µØĞÅÏ¢³ö´í
+	if (fp == NULL) {//è¯»å–æœ¬åœ°ä¿¡æ¯å‡ºé”™
 
 		printf( "There is a bug in reading information, please restart and try.\n"
 			"If loading fails all the time, please contact the administrator:\n"
-			"QQ£º2986325137 / 1272607918\n" );
+			"QQï¼š2986325137 / 1272607918\n" );
 
-		getch();//ÔİÍ£³ÌĞò
-		system( "cls" );//Çå¿ÕÆÁÄ»»º´æÇø
+		getch();//æš‚åœç¨‹åº
+		system( "cls" );//æ¸…ç©ºå±å¹•ç¼“å­˜åŒº
 		return;
 	}
 
@@ -183,7 +183,7 @@ void Update_Leaderboard( Leaderboard people ,int mode) {
 
 
 	out_Time( people.completion_time.year, people.completion_time.month, people.completion_time.day );
-	if(mode==1)
+	if(mode==1&&people.MaxNum>=2048)
 	fprintf( fp, "%s %d %d %d %d\n", people.name, people.game_Step
 		, people.completion_time.year, people.completion_time.month
 		, people.completion_time.day );
