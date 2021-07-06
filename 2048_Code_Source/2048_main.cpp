@@ -46,10 +46,16 @@ void Game_Description()
 }
 int main()
 {
+	system( "title 2048小游戏_课设" );
+	
 	KillConsoleCloseButton();
+	
 	SetSize( 60, 20 );
+	
 	the_size_of_word();
+	
 	SetPos( 0, 5 );
+	
 	while (1) {
 		Print_Mnue();
 		string step;//选择
