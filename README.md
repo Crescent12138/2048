@@ -1,4 +1,4 @@
-![老婆照片当横幅](https://www.picbed.cn/image/5je7q2lfc-gqjqt3mupx0.LfTk3)            
+![老婆照片当横幅](https://www.picbed.cn/image/LfTk3)            
 
  
 
