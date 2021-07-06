@@ -43,7 +43,7 @@
 
 四、游戏界面暂时采用后端控制台来进行游戏，等我们有时间了再写前端
 
-![操作界面](https://github.com/Crescent12138/2048/blob/main/%E6%93%8D%E4%BD%9C%E8%A7%86%E5%9B%BE1.png)
+![操作界面](https://github.com/Crescent12138/2048/blob/main/QQ%E6%88%AA%E5%9B%BE20210706133714.png)
 
 
 
