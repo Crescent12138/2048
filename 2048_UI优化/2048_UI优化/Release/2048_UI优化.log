@@ -1,0 +1,45 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  2048_main.cpp
+D:\项目\2048_UI优化\2048_UI优化\num_rand.h(20,17): warning C4101: “hash”: 未引用的局部变量
+D:\项目\2048_UI优化\2048_UI优化\Output_Time.h(10,8): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(41,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(70,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(83,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(94,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(95,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(110,10): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(113,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(115,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(117,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(119,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(121,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(156,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(167,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(168,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(177,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Color_Size.h(19,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Color_Size.h(27,16): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+D:\项目\2048_UI优化\2048_UI优化\Color_Size.h(27,19): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+D:\项目\2048_UI优化\2048_UI优化\Pause_System.h(13,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Pause_System.h(15,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Pause_System.h(27,3): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Pause_System.h(47,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\test.h(285,22): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Keep_System.h(12,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Keep_System.h(14,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Keep_System.h(35,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Keep_System.h(37,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Keep_System.h(43,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Wipe_Cache.h(9,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Wipe_Cache.h(12,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Wipe_Cache.h(16,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\Wipe_Cache.h(20,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\项目\2048_UI优化\2048_UI优化\2048_main.cpp(44,2): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  正在生成代码
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(48): warning C4715: “Sort_rules_ordinary”: 不是所有的控件路径都返回值
+D:\项目\2048_UI优化\2048_UI优化\Ranking_System.h(77): warning C4715: “Sort_rules_endless”: 不是所有的控件路径都返回值
+  26 of 148 functions (17.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  2048_UI优化.vcxproj -> D:\项目\2048_UI优化\Release\2048_UI优化.exe
