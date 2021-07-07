@@ -88,10 +88,11 @@
 - [ ] 游戏时长
 - [x] 取消回车读入，提高UI体验
 - [x] 设计简单的前端框架，增大游戏体验
-- [ ] 设计排行榜前端框架，增大可读性
+- [x] 设计排行榜前端框架，增大可读性
 - [x] 设计更加人性化的按键输入来满足游戏玩家的需求
 - [ ] 增加鼠标互动
 - [ ] 增加上下左右键位的互动
+- [ ] 
 
 ## 更新日志
 
@@ -106,6 +107,7 @@
 9. 7.6 立项开始2048前端设计
 10. 7.6 修改游戏字体颜色大小
 12. 7.6 修改回车读取问题，提高游戏体验
+13. 7.7 简单完成了ui界面设计，利用幕布提高了图形的识别
 
 ## 参考资料
 1。[EasyX图片加载与输出](https://blog.csdn.net/qq_35691619/article/details/78657794?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control)
