@@ -107,7 +107,8 @@
 10. 7.6 修改游戏字体颜色大小
 12. 7.6 修改回车读取问题，提高游戏体验
 
-
+## 参考资料
+1。[EasyX图片加载与输出](https://blog.csdn.net/qq_35691619/article/details/78657794?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control)
 ## 特别感谢
 
 特别感谢LQY倾情内测，增加我们的工作量。
