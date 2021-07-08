@@ -1,0 +1,50 @@
+﻿  2048_main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037\include\istream(797,5): warning C4615: #pragma warning: 未知的用户警告类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037\include\iostream(75,1): warning C4193: #pragma warning(pop): 没有匹配的“#pragma warning(push)”
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\num_rand.h(20,17): warning C4101: “hash”: 未引用的局部变量
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Output_Time.h(10,8): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(83,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(94,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(95,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(110,10): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(113,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(115,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(117,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(119,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(121,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(156,2): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(167,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(168,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Ranking_System.h(177,3): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Color_Size.h(19,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Color_Size.h(27,16): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Color_Size.h(27,19): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Pause_System.h(13,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Pause_System.h(15,6): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Pause_System.h(27,3): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Pause_System.h(47,2): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(107,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(112,73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(117,73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(122,73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(127,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(132,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(137,74): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(142,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(147,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(152,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(157,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(162,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(167,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(172,76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\test.h(285,22): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Keep_System.h(12,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Keep_System.h(14,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Keep_System.h(35,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Keep_System.h(37,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Keep_System.h(43,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Wipe_Cache.h(9,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Wipe_Cache.h(12,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Wipe_Cache.h(16,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\Wipe_Cache.h(20,7): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Saiel Crescent\Desktop\2048_UI优化\2048_UI优化\2048_main.cpp(44,2): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
