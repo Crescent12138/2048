@@ -283,7 +283,7 @@ void test_round(Leaderboard people,int mode) {
     print(wan_jia,people,mode);
     print_score(people,mode);
     while (operation=getch()) {
-        if (operation == 'P' || operation == 'p') {
+        if (operation == ' ' || operation == ' ') {
             closegraph();
             Pause_system( wan_jia, people ,mode);
             return;
@@ -293,13 +293,13 @@ void test_round(Leaderboard people,int mode) {
 
             switch (operation) {
 
-            case 'w': case 'W': up_move();    break;
+            case 'w': case 'W' :case 72: up_move();    break;
 
-            case 's': case 'S': down_move();  break;
+            case 's': case 'S': case 80: down_move();  break;
 
-            case 'a': case 'A': left_move();  break;
+            case 'a': case 'A': case 75:  left_move();  break;
 
-            case 'd': case 'D': right_move(); break;
+            case 'd': case 'D': case 77:  right_move(); break;
 
             }
 
