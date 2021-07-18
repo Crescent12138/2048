@@ -56,9 +56,6 @@
     <ClCompile Include="2048_main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="music.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="0.jpg">

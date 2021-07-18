@@ -10,12 +10,12 @@
 #include"Pause_System.h"
 #include"New_Game.h"
 #include"Wipe_Cache.h"
-//#include"music"
-void* Music_Player(void* args)
+
+void Music_Player(int x)
 {
 	while (1) {
 
-		
+
 		PlaySound(TEXT("sound\\1.wav"), NULL, SND_FILENAME | SND_ASYNC);
 
 		Sleep(60000 * 4 + 15000);
@@ -29,7 +29,7 @@ void* Music_Player(void* args)
 		Sleep(60000 * 2 + 33000);
 	}
 
-	return 0;
+	return;
 }
 
 void Print_Mnue() {
@@ -76,11 +76,9 @@ int main()
 
 	SetPos( 0, 5 );
 
+	thread tids(Music_Player, 0);
 
-	pthread_t tids[5];
-	
-		//参数依次是：创建的线程id，线程参数，调用的函数，传入的函数参数
-		int ret = pthread_create(&tids[1], NULL, Music_Player, NULL);
+	//PlaySound(TEXT("sound\\超级玛丽.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
 
 	while (1) {
 		Print_Mnue();
@@ -103,7 +101,7 @@ int main()
 		case '3':Print_Leaderboard( 1 ); break;
 		case '4':Print_Leaderboard( 2 ); break;
 		case '5':Game_Description(); break;
-		case '6':printf("Thanks for your using!\n");  pthread_testcancel() ; exit(0);
+		case '6':printf("Thanks for your using!\n"); exit(0);
 		case '7':Wipe_cache(); break;
 		}
 
